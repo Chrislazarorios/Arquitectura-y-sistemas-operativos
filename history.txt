@@ -1,0 +1,29 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  pwd
+    7  sudo su
+    8  sudo su -
+    9  history
+   10  sudo su ls - l
+   11  sudo su
+   12  echo "hola consola"
+   13  ls -l
+   14  echo "hola mundo consola">saludar.txt
+   15  ls -l
+   16  cat
+   17  echo "borro lo anterior">saludar.txt
+   18  echo "continuando con lo anterior" >>saludar.txt
+   19  md5 zoom saludar.txt
+   20  md5zoom saludar.txt
+   21  md5sum saludar.txt
+   22  sha
+   23  sha saludar.txt
+   24  sha256sum saludar.txt
+   25  sha256sum saludar.txt >hash.txt
+   26  echo sha256sum saludar.txt>hash2.txt
+   27  sha256sum history.txt>history.txt
+   28  history
+   29  history >history.txt
