@@ -1,0 +1,23 @@
+    1  wget https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.1.8/xampp-linux-x64-
+    2  7.1.8-0-installer.run?from_af=true
+    3  wget https://downloadsapachefriends.global.ssl.fastly.net/xampp-files/7.1.8/xampp-linux-x64-7.1.8-0-installer.run?from_af=true
+    4  mv xampp-linux-x64-7.1.8-0-installer.run\?from_af\=true xampp-linux-x64-7.1.8-0-installer.run
+    5  chmod +x xampp-linux-x64-7.1.8-0-installer.run 
+    6  sudo ./xampp-linux-x64-7.1.8-0-installer.run 
+    7  /opt/lampp/lampp start
+    8  sudo /opt/lampp/lampp start
+    9  wget https://download.owncloud.org/community/owncloud-10.0.2.zip
+   10  sudo unzip owncloud-10.0.2.zip 
+   11  sudo cp -r owncloud /opt/lampp/htdocs/
+   12  ls /opt/lampp/htdocs/
+   13  ls -la /opt/lampp/htdocs/
+   14  sudo touch /opt/lampp/etc/extra/httpd-owncloud.conf
+   15  ls /opt/lampp/etc/extra
+   16  ls -l /opt/lampp/etc/extra/httpd-owncloud.conf 
+   17  sudo chmod 777 /opt/lampp/etc/extra/httpd-owncloud.conf 
+   18  ls -l /opt/lampp/etc/extra/httpd-owncloud.conf 
+   19  ls -l -d /opt/lampp/
+   20  sudo chmod 770 -R /opt/lampp/htdocs/
+   21  sudo chown -R daemon:daemon /opt/lampp/htdocs/
+   22  cd /home/cristian/Escritorio/
+   23  history > historialTP.txt
